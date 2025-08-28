@@ -1,0 +1,17 @@
+ * Instance metadata not available
+ * Serving Flask app 'application'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:7002
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ - [22/Aug/2025 15:56:03] "GET /info HTTP/1.1" 200 -
+127.0.0.1 - - [22/Aug/2025 15:56:18] "GET /info HTTP/1.1" 200 -
+127.0.0.1 - - [22/Aug/2025 15:56:19] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Aug/2025 15:56:33] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/Aug/2025 15:58:07] "[33mGET /employee/ HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Aug/2025 15:58:11] "[33mGET /employees/ HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Aug/2025 15:58:15] "[33mGET /employes/ HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Aug/2025 15:58:55] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/Aug/2025 15:59:17] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/Aug/2025 15:59:40] "GET / HTTP/1.1" 200 -
